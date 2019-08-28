@@ -14,7 +14,6 @@ fetch ('https://randomuser.me/api/?results=12')
       const output = document.createElement('div');
       output.innerHTML = 
       `
-      
         <div class="card-img-container">
             <img class="card-img" src="${user.picture.medium}" alt="profile picture">
         </div>
