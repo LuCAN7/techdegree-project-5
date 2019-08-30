@@ -36,7 +36,6 @@ fetch ('https://randomuser.me/api/?results=12')
         const month = dob.slice(5,7);
         const day = dob.slice(8,11);
         const year = dob.slice(2,4);
-        
         // Use template literals to display the modal conatiner
         modalContainer.innerHTML =
         `
@@ -66,9 +65,9 @@ fetch ('https://randomuser.me/api/?results=12')
             document.body.removeChild(modalContainer);
 
         });
-
-        const prevBtn= document.querySelector('#modal-prev').addEventListener('click', () => {});
-        const nextBtn= document.querySelector('#modal-next').addEventListener('click', () => {const next = output.nextSibling;});
+        // **EXTRA MARKS** Code to Add extra functionality
+        // const prevBtn= document.querySelector('#modal-prev').addEventListener('click', () => {});
+        // const nextBtn= document.querySelector('#modal-next').addEventListener('click', () => {const next = output.nextSibling;});
         
       })
       // Add each user object to gallery div 
